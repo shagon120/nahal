@@ -21,21 +21,21 @@ module.exports = {
             foreground: "#11181C",
             primary: {
               foreground: "#000000",
-              DEFAULT: "#31b58d",
+              DEFAULT: "#26D367",
             },
-            secondary: { DEFAULT: "#E8BD17", foreground: "#000000" },
+            secondary: { DEFAULT: "#99991c", foreground: "#000000" },
             content: { DEFAULT: "#DB4EF1", foreground: "#000000" },
           },
         },
         dark: {
           colors: {
-            background: "#080a09",
+            background: "#394a41",
             foreground: "#ECEDEE",
             primary: {
               foreground: "#000000",
-              DEFAULT: "#26a67d",
+              DEFAULT: "#26D367",
             },
-            secondary: { DEFAULT: "#E8BD17", foreground: "#000000" },
+            secondary: { DEFAULT: "#d2d448", foreground: "#000000" },
             content: { DEFAULT: "#DB4EF1", foreground: "#000000" },
           },
         },

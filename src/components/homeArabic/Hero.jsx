@@ -12,21 +12,14 @@ const Hero = () => {
       >
         <div className=" mx-2 ">
           <h1 className="text-5xl font-bold  bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent p-3 text-center">
-            GrizzlyBeard
+            لسيبسبسي
           </h1>
           <TypeAnimations />
           <div className=" px-20 w-[30rem] mt-4 text-balance">
-            <p>
-              At GizzlyBeard, we offer professional barbering services with a
-              touch of style and sophistication.
-            </p>
-            <p>
-              From classic haircuts to modern grooming techniques, our
-              experienced barbers are dedicated to providing you with the best
-              experience.
-            </p>
+            <p>مرحبا انا اياء شسيشسي بيسعبسيهي شيتشسايه شعاييشا</p>
+            <p>بيسعبسيهي</p>
           </div>
-          <div className=" space-x-5 p-4 mb-5">
+          <div className=" space-x-5 p-4">
             <Button
               as={Link}
               href="/#services"
@@ -44,8 +37,8 @@ const Hero = () => {
         <div>
           <Image
             className=" rounded-full lg:ml-15 lg:mr-5 px-4  py-2 pointer-events-none select-none"
-            src="/banner.png"
-            alt="nahal alsalasbeel"
+            src="/barber1.gif"
+            alt="Barber banner image for GrizzlyBeard"
             width={500}
             height={500}
           />

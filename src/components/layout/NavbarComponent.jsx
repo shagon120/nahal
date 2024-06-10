@@ -76,12 +76,23 @@ const NavbarComponent = () => {
         >
           <NavbarBrand>
             <Image
-              src="/logo.png"
-              width={30}
-              height={30}
+              src="/banner.png"
+              width={50}
+              height={50}
               alt="logo brand GrizzlyBeard"
+              className="rounded-full"
             />
-            <p className="font-bold  m-3">GrizzlyBeard</p>
+            <div className="flex flex-col gap-0 mt-2 p-3">
+              <div>
+                <p className="font-bold ">Nahal AlSalsabeel</p>
+              </div>
+              <div>
+                <p className="text-secondary font-semibold">
+                  {" "}
+                  سيبسيبسيب سيب سيبسيب
+                </p>
+              </div>
+            </div>
           </NavbarBrand>
         </Link>
       </NavbarContent>
@@ -116,25 +127,9 @@ const NavbarComponent = () => {
         <NavbarItem>
           <Link
             className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-            href="/register"
+            href="/arabic"
           >
-            Register
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-            href="/bookings"
-          >
-            Bookings
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-            href="/admin"
-          >
-            Admin
+            Arabic/عربي
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -181,40 +176,10 @@ const NavbarComponent = () => {
             <Link
               className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
               color="foreground"
-              href="/#contact"
+              href="/arabic"
               onClick={() => setIsOpen(false)}
             >
-              Contact
-            </Link>
-          </div>
-          <div>
-            <Link
-              className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-              color="foreground"
-              href="/register"
-              onClick={() => setIsOpen(false)}
-            >
-              Register
-            </Link>
-          </div>
-          <div>
-            <Link
-              className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-              color="foreground"
-              href="/bookings"
-              onClick={() => setIsOpen(false)}
-            >
-              Bookings
-            </Link>
-          </div>
-          <div>
-            <Link
-              className=" relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-              color="foreground"
-              href="/admin"
-              onClick={() => setIsOpen(false)}
-            >
-              Admin
+              Arabic/عربي
             </Link>
           </div>
         </div>

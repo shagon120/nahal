@@ -13,12 +13,13 @@ const Footer = () => {
             href={"/"}
             className="hover:scale-125 transition duration-300 ease-in-out"
           >
-            <div className="mb-4">
+            <div className="mb-4 ">
               <Image
-                src="/logo.png"
+                src="/banner.png"
                 alt="Company Logo"
                 width={100}
                 height={100}
+                className="rounded-full"
               />
             </div>
           </Link>
@@ -38,7 +39,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm mb-2">
-            &copy; 2024 GrizzlyBeard. All rights reserved.
+            &copy; 2024 Nahal AlSalsabeel. All rights reserved.
           </div>
 
           {/* Social Links */}

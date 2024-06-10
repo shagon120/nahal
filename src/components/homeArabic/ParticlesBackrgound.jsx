@@ -47,7 +47,7 @@ const ParticlesBackrgound = ({ children }) => {
             },
             modes: {
               push: {
-                quantity: 1,
+                quantity: 4,
               },
               repulse: {
                 distance: 80,
@@ -57,17 +57,17 @@ const ParticlesBackrgound = ({ children }) => {
           },
           particles: {
             color: {
-              value: "#26D367",
+              value: "#E8BD17",
             },
             links: {
-              color: "#E8BD17",
+              color: "#ffffff",
               distance: 150,
               enable: true,
               opacity: 0.5,
               width: 1,
             },
             move: {
-              direction: "random",
+              direction: "outside",
               enable: true,
               outModes: {
                 default: "bounce",
@@ -79,9 +79,9 @@ const ParticlesBackrgound = ({ children }) => {
             number: {
               density: {
                 enable: true,
-                area: 1000,
+                area: 800,
               },
-              value: 150,
+              value: 80,
             },
             opacity: {
               value: 0.4,
